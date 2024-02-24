@@ -2,6 +2,7 @@ Lo único que me falto fue el edit, tuve unas complicaciones con el internet y n
 
 
 -- start database
+
 use laravelcrud;
 insert into clientes (nombreCliente) values ('Soriana');
 insert into clientes (nombreCliente) values ('HEB');
@@ -18,6 +19,3 @@ select * from categorias;
 select * from productos;
 select * from ventas;
 
-update categorias set nombreCategoria = 'Desarrollo de personaje' where idCategoria=3;
-
-update categorias set nombreCategoria = 'Limpieza' where idCategoria=4;
